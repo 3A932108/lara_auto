@@ -6,5 +6,10 @@
             "name": "Yi Chu Hsu"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Demo\\":"./src/Demo"
+        }
+    }
 }
